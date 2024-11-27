@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-27T10:36:24 IST" name="singlerun" finished-at="2024-11-27T10:36:29 IST" duration-ms="5169">
+    <groups>
+      <group name="smoke">
+        <method signature="DashBoardTest.dashBoards()[pri:0, instance:com.sevenmartsupermarkert.tests.DashBoardTest@50a638b5]" name="dashBoards" class="com.sevenmartsupermarkert.tests.DashBoardTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-11-27T10:36:24 IST" name="dashboard" finished-at="2024-11-27T10:36:29 IST" duration-ms="5169">
+      <class name="com.sevenmartsupermarkert.tests.DashBoardTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.sevenmartsupermarkert.tests.DashBoardTest@50a638b5]" started-at="2024-11-27T10:36:24 IST" name="launchBrowser" finished-at="2024-11-27T10:36:28 IST" duration-ms="4096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="dashBoards()[pri:0, instance:com.sevenmartsupermarkert.tests.DashBoardTest@50a638b5]" started-at="2024-11-27T10:36:28 IST" name="dashBoards" finished-at="2024-11-27T10:36:29 IST" duration-ms="1020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashBoards -->
+        <test-method is-config="true" signature="terminateSession(org.testng.ITestResult)[pri:0, instance:com.sevenmartsupermarkert.tests.DashBoardTest@50a638b5]" started-at="2024-11-27T10:36:29 IST" name="terminateSession" finished-at="2024-11-27T10:36:29 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dashBoards status=SUCCESS method=DashBoardTest.dashBoards()[pri:0, instance:com.sevenmartsupermarkert.tests.DashBoardTest@50a638b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateSession -->
+      </class> <!-- com.sevenmartsupermarkert.tests.DashBoardTest -->
+    </test> <!-- dashboard -->
+  </suite> <!-- singlerun -->
+</testng-results>

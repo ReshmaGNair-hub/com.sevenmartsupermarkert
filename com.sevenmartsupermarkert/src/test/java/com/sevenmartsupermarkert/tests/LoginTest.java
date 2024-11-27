@@ -22,7 +22,7 @@ public class LoginTest extends Base{
 	 
 	 {
 		 loginpage = new LoginPage(driver);
-		 dashboardpage=loginpage.login("admin","admin");
+		 dashboardpage=loginpage.login("h","admin");
 		 excelreader.setExcelFile("Login","login");
 		 String readUserName=excelreader.getCellData(1, 0);
 		 String readPassword= excelreader.getCellData(1, 1);
