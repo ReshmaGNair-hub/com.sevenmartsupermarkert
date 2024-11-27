@@ -1,0 +1,37 @@
+<suite name="parallelsuite" thread-count="5" parallel="tests">
+	<listeners>
+		
+		<listener class-name="com.sevenmartsupermarkert.listeners.ExtentReporter"></listener>
+	
+		</listeners>
+	<test name="Running in chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.sevenmartsupermarkert.tests.LoginTest"></class>
+	
+			
+		</classes>
+		</test>
+		<test name="Running in edge">
+			<parameter name="browser" value="edge"></parameter>
+		<classes>
+			
+			<class name="com.sevenmartsupermarkert.tests.LoginTest"></class>
+		
+		</classes>
+		</test>
+		
+		<test name="Running in safari">
+			<parameter name="browser" value="safari"></parameter>
+		<classes>
+			
+			<class name="com.sevenmartsupermarkert.tests.LoginTest"></class>
+	
+			
+		</classes>
+
+
+
+	</test>
+
+</suite>

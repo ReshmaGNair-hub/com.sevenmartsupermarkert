@@ -1,0 +1,33 @@
+<suite name="parallelsuite">
+	<listeners>
+		
+		<listener class-name="com.sevenmartsupermarkert.listeners.ExtentReporter"></listener>
+	
+		</listeners>
+	<test name="LoginTest">
+		<classes>
+			<class name="com.sevenmartsupermarkert.tests.LoginTest"></class>
+	
+			
+		</classes>
+		</test>
+		<test name="DashboardTest">
+		<classes>
+			
+			<class name="com.sevenmartsupermarkert.tests.DashBoardTest"></class>
+			
+		</classes>
+		</test>
+		
+		<test name="AdminUser">
+		<classes>
+			
+			
+			<class name="com.sevenmartsupermarkert.tests.AdminUserTest"></class>
+		</classes>
+
+
+
+	</test>
+
+</suite>

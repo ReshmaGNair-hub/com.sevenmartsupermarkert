@@ -1,0 +1,22 @@
+<suite name="grouprunning" >
+	<listeners>
+		
+		<listener class-name="com.sevenmartsupermarkert.listeners.ExtentReporter"></listener>
+	
+		</listeners>
+	<test name="smoke">
+		<groups >
+			<run>
+			<include name="smoke"></include>
+			</run>
+		</groups>
+		
+		<classes>
+			<class name="com.sevenmartsupermarkert.tests.LoginTest"></class>
+			<class name="com.sevenmartsupermarkert.tests.AdminUserTest"></class>
+			<class name="com.sevenmartsupermarkert.tests.DashBoardTest"></class>
+			<class name="com.sevenmartsupermarkert.tests.ManageFooterText"></class>
+			<class name="com.sevenmartsupermarkert.tests.SubCategoryTest"></class>	
+		</classes>
+	</test>
+		</suite>
