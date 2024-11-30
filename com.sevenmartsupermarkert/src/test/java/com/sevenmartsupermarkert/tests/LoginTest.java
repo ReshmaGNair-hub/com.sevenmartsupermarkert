@@ -37,6 +37,7 @@ public class LoginTest extends Base{
 		 Assert.assertEquals(actualProfileName, expectedProfileName);
 		 System.out.println(GeneralUtility.getRandomAddress());
 		 System.out.println(GeneralUtility.getRandomName());
+		 System.out.println("hii");
 		 
 		
 		 
